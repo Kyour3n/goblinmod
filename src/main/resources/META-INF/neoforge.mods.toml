@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="goblinmod"
+version="1.0.0"
+displayName="Goblin Mod"
+authors="You"
+description='''
+Adds a fully animated Goblin: idle breathing and ear twitching, a scurrying
+walk cycle, a dagger-stab attack animation, spawn egg, drops and natural spawning.
+'''
+
+[[dependencies.goblinmod]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.goblinmod]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
